@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to top left,
+    rgb(198, 230, 231),
+    rgb(167, 176, 206)
+  );
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(47, 47, 71);
+  letter-spacing: 3px;
+}
+
+.counter {
+  font-size: 6rem;
+  color: rgb(47, 47, 71);
+  margin: 1.8rem;
+  /* font-weight: bold; */
+}
+
+.btn {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 10px;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  transition: 0.7s;
+  border: 2px solid black;
+  letter-spacing: 2.2px;
+}
+
+button:hover {
+  color: white;
+  background-color: #000;
+}
